@@ -5,4 +5,15 @@ class Vehicle
     @seating_capacity = seating_capacity
     @maximum_velocity = maximum_velocity
   end
+
+  def number_of_wheels
+    @number_of_wheels
+  end
+
+  def set_number_of_wheels=(number)
+    @number_of_wheels = number
+  end
+
 end
+
+tesla_model = Vehicle.new(4, 'electric', 5, 300)

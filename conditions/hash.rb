@@ -4,6 +4,10 @@ hash = {
   "age" => 24
 }
 
-print "My name is #{hash["name"]}"
-print "My surname is #{hash["surname"]}"
-print "I am #{hash["age"]} years old"
+puts "My name is #{hash["name"]}"
+puts "My surname is #{hash["surname"]}"
+puts "I am #{hash["age"]} years old"
+
+hash.each do |k, v|
+  puts " #{k}: #{v}"
+end

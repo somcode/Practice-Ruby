@@ -1,6 +1,5 @@
 class Vehicle
-  # attr_reader :number_of_wheels
-  attr_writer :number_of_wheels
+  attr_accessor :number_of_wheels
 
   def initialize(number_of_wheels, type_of_tank, seating_capacity, maximum_velocity)
     @number_of_wheels = number_of_wheels
@@ -11,5 +10,5 @@ class Vehicle
 
 end
 
-tesla_model = Vehicle.new(4, 'electric', 5, 300)
-tesla_model.number_of_wheels
+# tesla_model = Vehicle.new(4, 'electric', 5, 300)
+# tesla_model.number_of_wheels

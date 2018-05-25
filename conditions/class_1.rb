@@ -8,8 +8,13 @@ class Vehicle
     @maximum_velocity = maximum_velocity
   end
 
+  def make_noise
+    "VRRUUMM"
+  end
+
 end
 
 tesla_model = Vehicle.new(4, 'electric', 5, 300)
 tesla_model.number_of_wheels
 tesla_model.number_of_wheels = 5
+tesla_model.make_noise

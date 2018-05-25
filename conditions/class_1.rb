@@ -10,5 +10,6 @@ class Vehicle
 
 end
 
-# tesla_model = Vehicle.new(4, 'electric', 5, 300)
-# tesla_model.number_of_wheels
+tesla_model = Vehicle.new(4, 'electric', 5, 300)
+tesla_model.number_of_wheels
+tesla_model.number_of_wheels = 5
